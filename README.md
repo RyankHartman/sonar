@@ -10,11 +10,19 @@ A small experiment in building something purely for delight: turning a single in
 
 ## How it works
 
-- **One HTML file.** No framework, no build step, no dependencies beyond a web font.
+- **One HTML file.** No framework, no build step, no dependencies beyond a web font and the Knight widget.
 - **Web Audio API** generates every tone in real time; nothing is pre-recorded.
 - **Canvas** draws the ripples, with a calmer animation for people who have reduced motion turned on.
 - Notes snap to the chosen scale across three octaves starting at G3, so random taps stay musical.
 
+## Knight is here too
+
+Tap the dog in the bottom-right corner to chat with Knight, my AI assistant, about my background. He was added with the same one-line embed described in the [Knight README](https://github.com/RyankHartman/KnightBot#add-knight-to-another-website).
+
 ## Run it locally
 
 Download `index.html` and open it in any modern browser.
+
+---
+
+<sub>🐾 Built by Ryan · Supervised by Knight</sub>
