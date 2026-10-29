@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Psst, Knight was here. Ask him about Ryan: https://knightbot-pi.vercel.app -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -104,6 +105,9 @@
   .hint h1{font-weight:400;font-size:clamp(17px,3.2vw,22px);color:var(--lumen);opacity:.82;margin:0;letter-spacing:.02em}
   .hint p{font-size:14px;color:var(--drift);opacity:.6;margin:12px 0 0;letter-spacing:.04em}
   .hint.gone{opacity:0}
+
+  /* Leave room for the Knight chat button in the bottom-right corner */
+  .hud.bottom{padding-right:calc(clamp(16px,4vw,34px) + 92px)}
 
   @media (max-width:560px){
     .hud.bottom{flex-direction:column;align-items:stretch;gap:12px}
@@ -327,5 +331,7 @@
   });
 })();
 </script>
+<!-- Knight, Ryan's AI assistant: ask him anything about Ryan -->
+<script src="https://knightbot-pi.vercel.app/widget.js" defer></script>
 </body>
 </html>
